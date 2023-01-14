@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="#F5F8DE"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/iv_desc"
+        app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+
+    <TextView
+        android:id="@+id/resultNumTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:text="@string/main_activity_result_tv"
+        android:textAlignment="center"
+        android:textColor="#2A0C4E"
+
+        android:textSize="82sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/startNumInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1.8"
+            android:autofillHints=""
+            android:hint="@string/main_activity_starting_et"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#2A0C4E"
+            android:textColorHint="#2A0C4E"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/submitStartNum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#51355A"
+            android:text="@string/main_activity_submit_btn"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#51355A"
+        android:text="@string/random_btn_string"
+        android:id="@+id/randomStartNumBtn"
+        android:textColor="@color/white" />
+    <!--android:layout_marginVertical="20dp"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/decrement_btn"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#51355A"
+            android:text="@string/minus"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:id="@+id/intervalEt"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="3"
+            android:autofillHints=""
+            android:hint="@string/enter_custom_number"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#2A0C4E"
+            android:textColorHint="#2A0C4E"
+
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/increment_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#51355A"
+            android:text="@string/plus"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

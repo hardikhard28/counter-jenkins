@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoinflipApp</string>
+    <string name="flip">flip</string>
+    <string name="reset">Reset</string>
+    <string name="total_flips_placeholder">Total flips :0</string>
+    <string name="total_head_placeholder">Total heads :0</string>
+    <string name="total_tail_placeholder">Total tails :0</string>
+</resources>

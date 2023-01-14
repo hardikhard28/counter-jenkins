@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Counter App</string>
+    <string name="iv_desc">This is a book image</string>
+    <string name="main_activity_result_tv">42</string>
+    <string name="main_activity_starting_et">Choose a starting number</string>
+    <string name="main_activity_submit_btn">Submit</string>
+    <string name="random_btn_string">Submit a random starting number</string>
+    <string name="minus">-</string>
+    <string name="enter_custom_number">Enter custom number</string>
+    <string name="plus">+</string>
+</resources>

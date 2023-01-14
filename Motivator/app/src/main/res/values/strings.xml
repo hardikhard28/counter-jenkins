@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Motivator</string>
+    <string name="name_et">Enter your name</string>
+    <string name="motivate_iv">this is an emoji telling motivate</string>
+    <string name="motivate_text_main_activity">hey!You are doing great!</string>
+    <string name="click_me_bro">CLick me bro</string>
+</resources>
